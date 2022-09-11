@@ -21,11 +21,11 @@ color = (255, 0, 0)
 thickness = 3
 while run:
     return_value, frame1 = camera.read()
-    FRAME_WINDOW.image(frame1)
+    #FRAME_WINDOW.image(frame1)
     time.sleep(0.001)
 
     return_value, frame2 = camera.read()
-    FRAME_WINDOW.image(frame2)
+    #FRAME_WINDOW.image(frame2)
 
     time.sleep(0.001)
 else:
