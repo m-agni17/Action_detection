@@ -5,7 +5,7 @@ import time
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras. preprocessing import image
-model=tf.keras.models.load_model("C:\\Users\\Admin\\Downloads\\Agni_2034003_model (1).h5")
+model=tf.keras.models.load_model("DeepVisionModel.h5")
 cap = cv2.VideoCapture(0)
 FRAME=st.image([])
 font = cv2.FONT_HERSHEY_SIMPLEX
